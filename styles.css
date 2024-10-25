@@ -13,9 +13,9 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
-  border-radius: 20px; /* Rounded corners */
+  border-radius: 20px;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   max-width: 700px;
   width: 100%;
 }
@@ -23,7 +23,7 @@ body {
 #controls {
   display: flex;
   align-items: center;
-  gap: 20px; /* Space between button and waveform */
+  gap: 20px;
 }
 
 #play-button {
@@ -55,8 +55,8 @@ body {
 
 #waveform {
   width: 500px;
-  height: 40px;  /* Set height to 40px to match bar height */
-  margin: 16px 0;  /* Add 16px top and bottom margin */
+  height: 40px;
+  margin: 16px 0;
   border-radius: 10px;
   overflow: hidden;
   position: relative;
